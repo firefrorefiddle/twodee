@@ -1,9 +1,7 @@
+package twodee.shapes
 
-
-package shapes
-
-import geometry.Vector
-import transform._
+import twodee.geometry.Vector
+import twodee.transform._
 /**
  * @author mhartl
  */

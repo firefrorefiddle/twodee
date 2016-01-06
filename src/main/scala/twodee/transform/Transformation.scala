@@ -1,8 +1,8 @@
-package transform
+package twodee.transform
 
-import geometry.Vector
-import geometry.Matrix3
-import shapes._
+import twodee.geometry.Vector
+import twodee.geometry.Matrix3
+import twodee.shapes._
 
 abstract class Angle {
   def rad: Double

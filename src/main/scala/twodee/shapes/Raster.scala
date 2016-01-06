@@ -1,8 +1,6 @@
+package twodee.shapes
 
-
-package shapes
-
-import geometry.Vector
+import twodee.geometry.Vector
 
 class Raster (sideLengthC : Int, viewPortC : Box) {
     val sideLength = sideLengthC

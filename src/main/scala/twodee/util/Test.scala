@@ -1,9 +1,7 @@
+package twodee.util
 
-
-package util
-
-import shapes._
-import transform._
+import twodee.shapes._
+import twodee.transform._
 
 /**
  * @author mhartl

@@ -1,6 +1,6 @@
-package geometry
+package twodee.geometry
 
-import transform._
+import twodee.transform._
 
 /**
  * @author rmh

@@ -1,7 +1,7 @@
-package shapes
+package twodee.shapes
 
-import geometry._
-import transform._
+import twodee.geometry._
+import twodee.transform._
 
 /**
  * @author rmh

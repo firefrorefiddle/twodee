@@ -1,4 +1,4 @@
-package geometry
+package twodee.geometry
 
 class Matrix2(cx11: Double, cx12: Double,
               cx21: Double, cx22: Double) {

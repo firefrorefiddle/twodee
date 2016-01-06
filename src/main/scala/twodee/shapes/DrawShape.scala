@@ -1,6 +1,4 @@
-
-
-package shapes
+package twodee.shapes
 
 object DrawShape {
   def apply(s: Shape, r: Raster): String = {

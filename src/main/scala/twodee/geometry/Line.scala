@@ -1,6 +1,6 @@
 
 
-package geometry
+package twodee.geometry
 
 /**
  * @author mhartl
