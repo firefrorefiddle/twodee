@@ -2,9 +2,15 @@ package twodee.shapes
 
 import twodee.geometry.Vector
 
-class Raster (sideLengthC : Int, viewPortC : Box) {
-    val sideLength = sideLengthC
-    val viewPort = viewPortC
+/**
+ * A raster is a mapping from a viewport in Double coordinates to
+ * a typical screen raster as in console output of lines and columns
+ * or in an HTML canvas. It is defined by the side length and the
+ * viewPort.
+ *
+ * TODO: allow non-square rasters (easy).
+ */
+case class Raster (sideLength : Int, viewPort : Box) {
 
     def fromPoint(p : Vector) : RasterPoint = { 
       new RasterPoint(
@@ -22,9 +28,7 @@ class Raster (sideLengthC : Int, viewPortC : Box) {
 /**
  * @author mhartl
  */
-class RasterPoint(xc : Int, yc: Int) {
-  val x : Int = xc
-  val y : Int = yc
+case class RasterPoint(x : Int, y: Int) {
   override def toString : String = {
     "<"+x+","+y+">"
   }
