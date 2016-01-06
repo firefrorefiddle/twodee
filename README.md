@@ -9,6 +9,13 @@ A toy library featuring 2d shapes and matrix conversion on them. Should be prett
 How to build
 ------------
 
+Currently, 
+
     mvn package
 
-should do the trick.
+builds a scala library, while
+
+    sbt compile
+
+builds scalaJS. This is an ugly hack of course, and I should really set up cross build in sbt,
+but for now does what I need.
