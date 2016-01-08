@@ -3,10 +3,7 @@ package twodee.shapes
 import twodee.geometry._
 import twodee.transform._
 
-/**
- * @author mhartl
- */
-abstract class Shape extends Transformable[Shape] {
+trait Shape extends Transformable[Shape] {
   def inside(p: Vector): Boolean
   def boundingPoly: List[Vector]
   
